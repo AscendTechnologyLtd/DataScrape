@@ -1,0 +1,6 @@
+data_source,data_item,metadata
+yelp.ca, review_user, 'div/div[1]/div/div/div[2]/ul[1]/li[1]/a/text()'
+yelp.ca, review_user_url, 'div/div[1]/div/div/div[2]/ul[1]/li[1]/a/@href'
+yelp.ca, review_date, 'div/div[2]/div[1]/div/span/meta/@content'
+yelp.ca, review_stars, 'div/div[2]/div[1]/div/div/div/meta/@content'
+yelp.ca, restaurant_url, 'div/div[2]/div[1]/p/text()'
