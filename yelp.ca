@@ -1,0 +1,7 @@
+data_source,data_item,metadata
+yelp.ca, restaurant_name, '//*[@id="wrap"]/div[3]/div/div[1]/div/div[2]/div[1]/div[1]/h1/text()'
+yelp.ca, restaurant_addr, '//*[@id="wrap"]/div[3]/div/div[1]/div/div[3]/div[1]/div/div[2]/ul/li[1]/div/strong/address//text()'
+yelp.ca, restaurant_phone, '//*[@id="wrap"]/div[3]/div/div[1]/div/div[3]/div[1]/div/div[2]/ul/li[3]/span[3]/text()'
+yelp.ca, restaurant_review_stars, '//*[@id="wrap"]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/div[1]/div/meta/@content'
+yelp.ca, restaurant_review_counts, '//*[@id="wrap"]/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/div[1]/span/span/text()'
+yelp.ca, restaurant_category, ''
