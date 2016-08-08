@@ -4,4 +4,4 @@ yelp.ca, review_user_url, '//*[@id="super-container"]/div[1]/div/div[1]/div[4]/d
 yelp.ca, review_date, '//*[@id="super-container"]/div[1]/div/div[1]/div[4]/div[1]/div[2]/ul/li'.'div/div[2]/div[1]/div/span/meta/@content'
 yelp.ca, review_stars, '//*[@id="super-container"]/div[1]/div/div[1]/div[4]/div[1]/div[2]/ul/li'.'div/div[2]/div[1]/div/div/div/meta/@content'
 yelp.ca, reviews_contents, '//*[@id="super-container"]/div[1]/div/div[1]/div[4]/div[1]/div[2]/ul/li'.'div/div[2]/div[1]/p/text()'
-yelp.ca, restaurant_url, '//*[@id="super-container"]/div[1]/div/div[1]/div[4]/div[1]/div[2]/ul/li'.'div/div[2]/div[1]/p/text()'
+yelp.ca, restaurant_url, 'div/div[2]/div[1]/p/text()'
